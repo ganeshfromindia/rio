@@ -428,5 +428,5 @@ footer a:hover {
 
 .dropdown-menu, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   color: #ffffff;
-  background-color: #333333;
+  background-color: #202020;
 }
