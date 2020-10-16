@@ -247,7 +247,7 @@ img {
 
 /* portfolio section */
 #portfolio-header {
-  background: url('../images/portfolio-header.jpg') no-repeat;
+  background: url('../images/4.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -429,4 +429,145 @@ footer a:hover {
 .dropdown-menu, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
   color: #ffffff;
   background-color: #202020;
+}
+
+
+.single-project h4 {
+  text-align: left;
+}
+
+.single-project,
+.about-area .project-caption .single-project,
+.contact-section .project-caption .single-project {
+	position: relative;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.single-project .project-img img,
+.about-area .project-caption .single-project .project-img img,
+.contact-section .project-caption .single-project .project-img img {
+	width: 100%;
+}
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+.single-project .project-cap,
+.about-area .project-caption .single-project .project-cap,
+.contact-section .project-caption .single-project .project-cap {
+	padding: 20px 20px;
+	background: #fafafa;
+	-webkit-transition: all .4s ease-out 0s;
+	-moz-transition: all .4s ease-out 0s;
+	-ms-transition: all .4s ease-out 0s;
+	-o-transition: all .4s ease-out 0s;
+	transition: all .4s ease-out 0s;
+	position: relative;
+}
+
+.single-project .plus-btn,
+.about-area .project-caption .single-project .plus-btn,
+.contact-section .project-caption .single-project .plus-btn {
+	position: absolute;
+	right: 16px;
+	top: -22px;
+	display: inline-block;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease-out 0s;
+	-moz-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s;
+}
+
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+
+.single-project .plus-btn i,
+.about-area .project-caption .single-project .plus-btn i,
+.contact-section .project-caption .single-project .plus-btn i {
+	color: #161e46;
+	background: transparent;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	line-height: 38px;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 10px;
+	-webkit-transition: all .4s ease-out 0s;
+	-moz-transition: all .4s ease-out 0s;
+	-ms-transition: all .4s ease-out 0s;
+	-o-transition: all .4s ease-out 0s;
+	transition: all .4s ease-out 0s;
+}
+
+.single-project .project-cap h4,
+.about-area .project-caption .single-project .project-cap h4,
+.contact-section .project-caption .single-project .project-cap h4 {
+	margin: 0;
+	line-height: 1.2;
+	font-size: 23px;
+	font-weight: 700;
+	color: #0b1c39;
+}
+
+.single-project .project-cap h4 a:hover,
+.about-area .project-caption .single-project .project-cap h4 a:hover,
+.contact-section .project-caption .single-project .project-cap h4 a:hover {
+	color: #ff5f13;
+}
+
+.single-project .project-cap h4 a,
+.about-area .project-caption .single-project .project-cap h4 a,
+.contact-section .project-caption .single-project .project-cap h4 a {
+	color: #0e132a;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	text-decoration: none;
+}
+
+
+
+.single-project:hover .project-cap,
+.about-area .project-caption .single-project:hover .project-cap,
+.contact-section .project-caption .single-project:hover .project-cap {
+	background: #00235b;
+}
+
+.single-project:hover .plus-btn i,
+.about-area .project-caption .single-project:hover .plus-btn i,
+.contact-section .project-caption .single-project:hover .plus-btn i {
+	color: #fff;
+	background: #ff5f13;
+}
+
+.single-project:hover .project-cap h4 a,
+.about-area .project-caption .single-project:hover .project-cap h4 a,
+.contact-section .project-caption .single-project:hover .project-cap h4 a {
+	color: #fff;
+}
+
+.single-project:hover .plus-btn,
+.about-area .project-caption .single-project:hover .plus-btn,
+.contact-section .project-caption .single-project:hover .plus-btn {
+	opacity: 1;
+	visibility: visible;
+}		
+
+.row.mt30 .col-md-8, .row.mt30 .col-sm-8 {
+  padding-top: 7%;
 }
