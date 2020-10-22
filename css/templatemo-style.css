@@ -38,6 +38,10 @@ body
 	margin-top: 30px;
 }
 
+.mt100 {
+	margin-top: 100px;
+}
+
 /* heading section */
 h1,h2,h3,h4 {
   color: #fff;
@@ -230,7 +234,7 @@ img {
 #team img {
   opacity: 0.8;
 }
-#team hr {
+hr {
   border-color: #303030;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -246,6 +250,13 @@ img {
 }
 
 /* portfolio section */
+#portfolio-header1 {
+  background: url('../images/specialty-chemicals.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
 #portfolio-header {
   background: url('../images/4.jpg') no-repeat;
   background-size: cover;
@@ -570,4 +581,82 @@ a:hover,
 
 .row.mt30 .col-md-8, .row.mt30 .col-sm-8 {
   padding-top: 7%;
+}
+
+#team img {
+  width: 300px;
+  height: 100px;
+}
+
+#team hr {
+  margin: 30px auto;
+}
+
+#team .col-md-12 {
+  margin: 35px auto 0px auto;
+  text-align: center;
+}
+
+#team p {
+  margin: 0 0 35px;
+}
+
+.mtb25 {
+  margin: 25px 0px;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 69%, 100% 52%, 100% 100%, 0% 100%)
+	}
+	50% {
+		clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%)
+	}
+}
+
+.stock-text h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+}
+
+.stock-text h2:nth-child(2) {
+	color: #d54ab6;
+	-webkit-animation: animate 4s ease-in-out infinite;
+  animation: animate 4s ease-in-out infinite;
+}
+
+.stock-text h2 {
+  font-size: clamp(12px, 3vw, 50px);
+  position: absolute;
+  text-transform: uppercase;
+  left: 10%;
+}
+
+.consu-dtls p {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+@media (max-width: 767px) {
+  ul.menu {
+    width: 335px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .product-tag-holder, #octagon {
+    width: 100%;
+  }
+  #portfolio-header1, #home, #contact-header, #about-header, #portfolio-header {
+    min-height: 100%;
+  } 
+  #home h1, #home h3 {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  #home {
+    background-size: 100%;
+    padding-top: 60px;
+  }
 }
