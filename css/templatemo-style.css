@@ -145,7 +145,7 @@ img {
 #home h1,
 #home h3 {
   line-height: 30px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* divider section */
@@ -176,13 +176,16 @@ img {
   cursor: pointer;
 }
 .divider .divider-one {
-  background: #c14000;
+  background: #009988;
 }
 .divider .divider-two {
-  background: #009988;
+  background: #c14000;
 }
 .divider .divider-three {
   background: #ffa500;
+}
+.divider .divider-four {
+  background: #0f4af3;
 }
 
 /* about section */
@@ -250,6 +253,13 @@ hr {
 }
 
 /* portfolio section */
+#portfolio-header2 {
+  background: url('../images/1.jpg') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
 #portfolio-header1 {
   background: url('../images/specialty-chemicals.jpg') no-repeat;
   background-size: cover;
@@ -638,6 +648,91 @@ a:hover,
   font-size: 14px;
   margin: 20px 0px;
 }
+
+.divider h2 {
+  font-size: 21px;
+}
+
+.divider p {
+  font-size: 15px;
+}
+
+p {
+  color: #ffffff;
+}
+
+a.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* modals css start */
+
+.modal-header {
+  width: 275px;
+  padding: 1.5rem 1.5rem 2rem;
+  margin: -2rem auto 1rem auto;
+  text-align: center;
+  border: 0;
+  border-radius: .125rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.modal-content {
+  border: 0;
+  border-radius: .125rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+} 
+
+.light-blue.darken-3 {
+  background-color: #FFD07B !important;
+}
+
+
+.modal-header .close {
+  margin-top: -2px;
+  position: absolute;
+  right: -24px;
+  top: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffd07b;
+  opacity: 1;
+  border-radius: 50%;
+  color: #D74E09;
+  outline: none;
+}
+
+/* modal css ends */
+
+@media (min-width: 576px) {
+	.modal-dialog {
+		max-width: 600px;
+		margin: 4rem auto;
+	}
+}
+
+@media (max-width: 575px) {
+	.modal-dialog {
+		margin: 4rem 0.5rem;
+	}
+}
+
+.modal-header h5 {
+	font-size: 28px;
+	width: 100%;
+	color: #D74E09;
+	margin-bottom: 0;
+}
+
 
 @media (max-width: 767px) {
   ul.menu {
