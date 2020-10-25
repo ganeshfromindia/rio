@@ -97,108 +97,108 @@ ul.menu > li:before {
     height: 70px;
     left: -57px;
     top: 7px;
-    background-image: url(../images/main-bkgrnd.png);
+/*    background-image: url(../images/main-bkgrnd.png);*/
     background-position: -2px -5px;
     background-size: 50%;
     background-repeat: no-repeat;
     padding-top: 18px;
     padding-left: 25px;
-    font-size: 15px;
-    color: #ffd166;
+    font-size: 35px;
+    color: #c14000;
 }
 
 ul.menu > li {
-    background-image: url(../images/right-bkgrnd.png);
+/*    background-image: url(../images/right-bkgrnd.png);*/
     background-position: 301px 17px;
     background-repeat: no-repeat;
 }
 
 ul.li1 > li:nth-of-type(1):before {
-    content: '01';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(2):before {
-    content: '02';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(3):before {
-    content: '03';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(4):before {
-    content: '04';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(5):before {
-    content: '05';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(6):before {
-    content: '06';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(7):before {
-    content: '07';
+    content: '+';
 }
 
 
 ul.li1 > li:nth-of-type(8):before {
-    content: '08';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(9):before {
-    content: '09';
+    content: '+';
 }
 ul.li1 > li:nth-of-type(10):before {
-    content: '10';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(11):before {
-    content: '11';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(12):before {
-    content: '12';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(13):before {
-    content: '13';
+    content: '+';
 }
 
 ul.li1 > li:nth-of-type(14):before {
-    content: '14';
+    content: '+';
 }
 
 
 
 
 ul.li2 > li:nth-of-type(1):before {
-    content: '08';
+    content: '+';
 }
 
 ul.li2 > li:nth-of-type(2):before {
-    content: '09';
+    content: '+';
 }
 
 ul.li2 > li:nth-of-type(3):before {
-    content: '10';
+    content: '+';
 }
 
 ul.li2 > li:nth-of-type(4):before {
-    content: '11';
+    content: '+';
 }
 
 ul.li2 > li:nth-of-type(5):before {
-    content: '12';
+    content: '+';
 }
 
 ul.li2 > li:nth-of-type(6):before {
-    content: '13';
+    content: '+';
 }
 
 
 ul.li2 > li:nth-of-type(7):before {
-    content: '14';
+    content: '+';
 }
 
 
@@ -206,12 +206,12 @@ ul.li2 > li:nth-of-type(7):before {
 
 ul.menu > li > ul {
     padding: 0;
-    background-color: #ffd166;
+/*    background-color: #ffd166;*/
     padding-left: 15px;
     width: 300px;
     margin-top: 0px;
-    border-top: 5px solid #c98e04;
-    border-bottom: 5px solid #c98e04;
+/*    border-top: 5px solid #c98e04;
+    border-bottom: 5px solid #c98e04;*/
 }
 
 
@@ -219,10 +219,10 @@ ul.menu > li > ul > li {
     list-style-type: none;
     font-size: 15px;
     line-height: 19px;
-	color: #000000;
+	color: #ffffff;
 	padding: 0;
-	margin: 0;
-	font-weight: 600;
+	margin: 9px 0 0 0;
+	font-weight: 100;
 }
 .navbar-light .navbar-toggler-icon {
 	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
@@ -720,7 +720,7 @@ h4 {
 .product h5  {
 	font-size: 28px;
 	width: 100%;
-	color: #D74E09;
+	color: #ffffff;
 	margin-bottom: 0;
 }
 
@@ -874,7 +874,7 @@ h4 {
 #octagon {
     width: 550px;
     height: 100px;
-    background: #ffd166;
+    background: #c14000;
     margin: auto;
 }
 
@@ -893,7 +893,7 @@ h4 {
 }
 
 .product-name {
-	color: #c98e04;
+	color: #ffffff;
     font-size: 2.5rem;
     line-height: 100px;
     font-weight: bolder;

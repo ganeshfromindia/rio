@@ -639,7 +639,7 @@ a:hover,
 }
 
 .stock-text h2:nth-child(2) {
-	color: #d54ab6;
+	color: #c14000;
 	-webkit-animation: animate 4s ease-in-out infinite;
   animation: animate 4s ease-in-out infinite;
 }
@@ -722,6 +722,12 @@ a.link {
   display: inline-block;
   margin-bottom: 25px;
 }
+
+.first-word {
+  border-bottom: 3px solid #c14000;
+  padding-bottom: 3px;
+}
+
 
 /* modal css ends */
 
