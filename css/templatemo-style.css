@@ -137,7 +137,7 @@ img {
 #home {
   background: url('../images/home-bg.jpg') no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center -55px;
   min-height: 500px;
   padding-top: 180px;
   padding-bottom: 100px;
@@ -187,6 +187,8 @@ img {
 .divider .divider-four {
   background: #0f4af3;
 }
+
+
 
 /* about section */
 #about-header {
@@ -257,7 +259,7 @@ hr {
   background: url('../images/1.jpg') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  min-height: 500px;
+  min-height: 600px;
   padding-top: 160px;
 }
 #portfolio-header1 {
@@ -680,8 +682,19 @@ a.link {
 
 /* modals css start */
 
+.efc-box-cont .modal-header {
+  width: 600px;
+  padding: 1.5rem 1.5rem 2rem;
+  margin: -2rem auto 1rem auto;
+  text-align: center;
+  border: 0;
+  border-radius: .125rem;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
 .modal-header {
-  width: 275px;
+  width: 300px;
   padding: 1.5rem 1.5rem 2rem;
   margin: -2rem auto 1rem auto;
   text-align: center;
@@ -706,10 +719,6 @@ a.link {
 
 
 .modal-header .close {
-  margin-top: -2px;
-  position: absolute;
-  right: -24px;
-  top: -20px;
   width: 50px;
   height: 50px;
   background-color: #ffd07b;
@@ -749,6 +758,44 @@ a.link {
     display: inline-block;
 }
 
+.efc #octagon {
+  background-color: #009988;
+}
+
+
+.efc-box-cont .box-part {
+  background-color: #27459a;
+  color: #ffffff;
+}
+.efc-box-cont .round-border {
+  visibility: hidden;
+}
+
+.efc-box-cont .product-details-tag {
+  background-color: #212d4e;
+}
+
+.efc-box-cont h3, .efc-box-cont p , .efc-box-cont li {
+  color: #000000;
+}
+
+.efc-box-cont a:focus {
+  color: #c98e04;
+}
+
+.efc-box-cont .modal-content-inner {
+  height:700px;
+  overflow:auto;
+}
+
+.address h3 {
+  font-size: 17px;
+}
+
+.tc-products ul li {
+  color: #000000;
+} 
+
 /* modal css ends */
 
 @media (min-width: 576px) {
@@ -771,6 +818,13 @@ a.link {
 	margin-bottom: 0;
 }
 
+footer {
+  display: none;
+}
+
+.btn-color-close {
+  background-color: #c14000;
+}
 
 @media (max-width: 767px) {
   ul.menu {
@@ -792,4 +846,41 @@ a.link {
     background-size: 100%;
     padding-top: 60px;
   }
+  .efc-box-cont .modal-header {
+    width: 300px;
+  }
+  .modal-header .close {
+    margin-top: -2px;
+    position: absolute;
+    right: 25px;
+    top: -35px;
+  }
+  .efc-box-cont h3 {
+    line-height: 1.8;
+  }
 }
+
+@media (min-width: 576px) {
+.efc-main-cont .modal-dialog {
+    max-width: 1000px;
+    margin: 4rem auto;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .efc-main-cont .modal-dialog {
+    width: 1000px;
+    margin: 30px auto;
+  } 
+  .efc-box-cont .modal-header {
+    width: 600px;
+  }
+
+  .modal-header .close {
+    margin-top: -2px;
+    position: absolute;
+    right: -24px;
+    top: -20px;
+  } 
+} 

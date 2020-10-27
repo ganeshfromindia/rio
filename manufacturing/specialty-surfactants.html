@@ -42,10 +42,10 @@
 					<li><a href="../index.html">Home</a></li>
 					<li><a href="../about.html">About Us</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">Manufacturing <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Manufacturing <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="specialty-surfactants.html"  class="active">Eco Chemicals</a></li>
+							<li><a href="specialty-surfactants.html" class="active">Eco Chemicals</a></li>
 							<li><a href="performance-chemicals.html">Performance Chemicals</a></li>
 							<li><a href="thermal-compounds.html">Thermal Compounds</a></li>
 						</ul>
@@ -75,12 +75,12 @@
 		</div>
 	</div>
 
-	<div class="container product">
+	<div class="container product efc-main-cont">
 		<div class="para">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="intro">
-						<div class="product-tag-holder text-center">
+						<div class="product-tag-holder text-center efc">
 							<div id="octagon">
 								<span class="product-name">Eco Friendly Chemicals</span>
 							</div>
@@ -186,7 +186,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row efc-box-cont">
 						<div class="col-md-12 text-center">
 							<h5>Various Eco Friendly Chemicals Manufactured By Us </h5>
 						</div>
@@ -194,157 +194,345 @@
 							<div class="box-part text-center">
 								<div class="icon round-border tran3s">GT#302</div>
 								<div class="title">
-									<h6 class="product-details-tag">Phase Balancing Additive </h6>
+									<h6 class="product-details-tag"><a href="#" data-toggle="modal"
+											data-target="#acids-alkalies" class="plus-btn">
+											Substitute for Hazardous Acids & Alkalis </a>
+									</h6>
 								</div>
-								
+
 							</div>
 							<!-- Modal -->
-							<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+							<div class="modal fade" id="acids-alkalies" tabindex="-1" role="dialog"
 								aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered" role="document">
 									<div class="modal-content">
 										<div class="modal-header light-blue darken-3">
-											<h5 class="title"><i class="fab fa-canadian-maple-leaf"></i>GT#101</h5>
-											<button type="button" class="close" (click)="modal.dismiss()"><span>&times;</span></button>
+											<h5 class="title"><i class="fab fa-canadian-maple-leaf"></i>Hazardous Nature
+												of Acids & Alkalis?</h5>
+											<button type="button" class="close" data-dismiss="modal"
+												aria-label="Close"><span
+													aria-hidden="true"><span>&times;</span></button>
 										</div>
-										<div class="modal-body">
-										  <ul class="text-left">
-											<li><span>Appearance:</span><span> Paste</span></li>
-											<li><span>Color:</span><span> White</span></li>
-											<li><span>Ph:</span><span> Neutral</span></li>
-											<li><span>Molecular Nature:</span><span> NI</span></li>
-											<li><span>O.D.C. Content at 30ºC:</span><span> 0%</span></li>
-											<li><span>Moisture Content at 30ºC:</span><span> 0%</span></li>
-											<li><span>Maximum Operating Temperature:</span><span> 250ºC</span></li>
-											<li><span>Minimum Operating Temperature:</span><span> -30ºC</span></li>
-											<li><span>Reactivity with metals, non-metals:</span><span> None</span></li>
-											<li><span>Water Spray Off:</span><span> 0.08</span></li>
-											<li><span>Relative Permittivity:</span><span> 3</span></li>
-											<li><span>Bleed 24 Hrs. @ 200°C, WT.%:</span><span> 0.004 % Max</span></li>
-											<li><span>Evaporation 24 Hrs. @ 200°C, WT.%:</span><span> 0.002 % Max</span></li>
-											<li><span>Drop Point:</span><span> 300ºC</span></li>
-											<li><span>VOC at 100ºC:</span><span> 0%</span></li>
-											<li><span>Thermal Conductivity at 30°C  w/mK:</span><span> 0.64 w/mk</span></li>
-											<li><span>Viscosity Poise:</span><span> 500 - 600</span></li>
-											<li><span>Viscosity:</span><span> 70000 to 75000 CPS</span></li>
-											<li><span>Shelf Life:</span><span> 1 Year</span></li>
-										  </ul>
-										</div>
-										<div class="modal-footer">
-										  <button type="button" class="btn btn-color-close" (click)="modal.dismiss()">Close</button>
+										<div class="modal-content-inner">
+											<div class="modal-body">
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">Chronic</span> Effects
+													</h3>
+													<p>Chronic occupational exposure to hydrochloric acid has been
+														reported to
+														cause gastritis,
+														chronic bronchitis, dermatitis, and photosensitization in
+														workers.
+													</p>
+													<p>Prolonged exposure to low concentrations may also cause
+														dental discoloration and erosion. (1-3,6) Chronic inhalation
+														exposure caused hyperplasia of the nasal mucosa, larynx,
+														and trachea and lesions in the nasal cavity in rats.
+													</p>
+													<p>The Reference Concentration (RfC) for hydrochloric acid is
+														0.02 milligrams per cubic meter (mg/m 3 ) based on
+														hyperplasia of the nasal mucosa, larynx, and trachea in rats.
+														At exposures increasingly greater than the RfC, the potential
+														for adverse health effects increases.
+													</p>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">Acute </span> Effects
+													</h3>
+													<p>Hydrochloric acid is corrosive to the eyes, skin, and mucous
+														membranes. Acute inhalation exposure may cause coughing,
+														hoarseness, inflammation and ulceration of the respiratory
+														tract, chest pain, and pulmonary edema in humans.
+													</p>
+													<p>Acute oral exposure may cause corrosion of the mucous
+														membranes, esophagus, and stomach, with nausea, vomiting,
+														and diarrhea reported in humans.
+													</p>
+													<p>Dermal contact may produce severe burns, ulceration, and
+														scarring.
+													</p>
+													<p>Acute animal tests in rats, mice, and rabbits, have
+														demonstrated hydrochloric acid to have moderate to high
+														acute toxicity from inhalation and moderate acute
+														toxicity from oral exposure.
+													</p>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">CHEMIFOR</span>
+														Alternative to Acids, Substitute to Acids</h3>
+													<p>CHEMIFOR had designed excellent alternative to Acids,
+														CHEMIFOR Acids alternative is advanced non-hazardous
+														product specially designed for non-fuel use in Industry.
+														CHEMIFOR Acids alternative non hazardous to the user and
+														environment also. Its perfect Eco-friendly replacement
+														for Acids.
+													</p>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">Benefits</span>
+														of CHEMIFOR Acids Alternative</h3>
+													<ul>
+														<li>Non-hazardous in nature</li>
+														<li>Do not have fumes to inhale</li>
+														<li>Non corrosive</li>
+														<li>Non irritating to skin</li>
+													</ul>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-color-close"
+													data-dismiss="modal">Close</button>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
 						<div class="col-md-4">
 							<div class="box-part text-center">
 								<div class="icon round-border tran3s">GT#303</div>
 								<div class="title">
-									<h6 class="product-details-tag">Anti Settling Additive</h6>
+									<h6 class="product-details-tag"><a href="#" data-toggle="modal" data-target="#hs"
+											class="plus-btn">
+											Substitute for Hazardous Solvents</a>
+									</h6>
 								</div>
-							   
+
 							</div>
 							<!-- Modal -->
-							<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+							<div class="modal fade" id="hs" tabindex="-1" role="dialog"
 								aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered" role="document">
 									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalCenterTitle">GT#402</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
+										<div class="modal-header light-blue darken-3">
+											<h5 class="title"><i class="fab fa-canadian-maple-leaf"></i>Hazardous
+												Nature
+												of Solvents </h5>
+											<button type="button" class="close" data-dismiss="modal"
+												aria-label="Close"><span
+													aria-hidden="true"><span>&times;</span></button>
 										</div>
-										<div class="modal-body">
-											<ul class="text-left">
-												<li><span>Appearance:</span><span> Paste</span></li>
-												<li><span>Color:</span><span> Silver</span></li>
-												<li><span>Ph:</span><span> Neutral</span></li>
-												<li><span>Molecular Nature:</span><span> NI</span></li>
-												<li><span>O.D.C. Content at 30ºC:</span><span> 0%</span></li>
-												<li><span>Moisture Content at 30ºC:</span><span> 0%</span></li>
-												<li><span>Maximum Operating Temperature:</span><span> 250ºC</span></li>
-												<li><span>Minimum Operating Temperature:</span><span> -5ºC</span></li>
-												<li><span>Reactivity with metals, non-metals:</span><span> None</span>
-												</li>
-												<li><span>Water Spray Off:</span><span> 0.01</span></li>
-												<li><span>Relative Permittivity:</span><span> 2</span></li>
-												<li><span>Bleed 24 Hrs. @ 200°C, WT.%:</span><span> Nil</span></li>
-												<li><span>Evaporation 24 Hrs. @ 200°C, WT.%:</span><span> Nil</span>
-												</li>
-												<li><span>Drop Point:</span><span> 250ºC</span></li>
-												<li><span>VOC at 100ºC:</span><span> 0%</span></li>
-												<li><span>Thermal Conductivity at 30°C w/mK:</span><span> 2.4
-														w/mk</span></li>
-												<li><span>Viscosity Poise:</span><span> 500 - 600</span></li>
-												<li><span>Viscosity:</span><span> 30000 to 40000 CPS</span></li>
-												<li><span>Shelf Life:</span><span> 3 Years</span></li>
-											</ul>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-color-close"
-												data-dismiss="modal">Close</button>
+										<div class="modal-content-inner">
+											<div class="modal-body">
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">Short </span>
+														Term Exposure from breathing methanol can cause
+													</h3>
+													<ul>
+														<li>Headaches and dizziness</li>
+														<li>Nausea and vomiting</li>
+														<li>Loss of smell</li>
+														<li>Visual problems leading to blindness</li>
+														<li>Neurological damage</li>
+														<li>Seizures</li>
+														<li>Movement disorders such as Parkinson’s disease</li>
+													</ul>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">Long </span>
+														Term exposure from breathing methanol can cause
+													</h3>
+													<ul>
+														<li>Birth defects</li>
+														<li>Eyes- Blurred vision and blindness</li>
+														<li>Loss of smell & test sensitivity</li>
+														<li>Loss of consciousness, coma, seizure, or death</li>
+														<li>Headaches and dizziness</li>
+														<li>Insomnia</li>
+														<li>Nausea and vomiting</li>
+														<li>Seizures</li>
+														<li>Movement disorders such as Parkinson’s disease</li>
+														<li>Damage to the brain and nervous system</li>
+													</ul>
+												</div>
+												<div class="col-md-12 col-sm-12">
+													<h3 class="mtb25"><span class="first-word">CHEMIFOR </span>
+														Eco-Friendly Alternative for Alcohols</h3>
+													<p>We had designed excellent alterative to replace use of
+														hazardous
+														alcohols used in industry for non-synthesis purpose. These
+														products
+														were designed tested & successfully implemented to replace
+														use of
+														methanol, acetone.
+													</p>
+													<h3 class="mtb25"><span class="first-word">Benefits </span>
+														of CHEMIFOR Eco-Friendly Alternative </h3>
+													<ul>
+														<li>Non-hazardous in nature</li>
+														<li>No fumes</li>
+														<li>No vapours to inhale</li>
+														<li>No mist formation</li>
+														<li>Non irritating to skin</li>
+													</ul>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-color-close"
+													data-dismiss="modal">Close</button>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="box-part text-center">
-								<div class="icon round-border tran3s">GT#304</div>
-								<div class="title">
-									<h6 class="product-details-tag"> Flow Improvers </h6>
+							<div class="col-md-4">
+								<div class="box-part text-center">
+									<div class="icon round-border tran3s">GT#304</div>
+									<div class="title">
+										<h6 class="product-details-tag"><a href="#" data-toggle="modal"
+												data-target="#cb" class="plus-btn">
+												Customised BIOCHEMICALS</a>
+										</h6>
+									</div>
+
 								</div>
-							   
-							</div>
-							<!-- Modal -->
-							<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-								aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalCenterTitle">GT#444</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											<ul class="text-left">
-												<li><span>Appearance:</span><span> Paste</span></li>
-												<li><span>Color:</span><span> Brown</span></li>
-												<li><span>Ph:</span><span> Neutral</span></li>
-												<li><span>Molecular Nature:</span><span> NI</span></li>
-												<li><span>O.D.C. Content at 30ºC:</span><span> 0%</span></li>
-												<li><span>Moisture Content at 30ºC:</span><span> 0%</span></li>
-												<li><span>Maximum Operating Temperature:</span><span> 250ºC</span></li>
-												<li><span>Minimum Operating Temperature:</span><span> -5ºC</span></li>
-												<li><span>Reactivity with metals, non-metals:</span><span> None</span>
-												</li>
-												<li><span>Water Spray Off:</span><span> 0.01</span></li>
-												<li><span>Relative Permittivity:</span><span> 2</span></li>
-												<li><span>Bleed 24 Hrs. @ 200°C, WT.%:</span><span> Nil</span></li>
-												<li><span>Evaporation 24 Hrs. @ 200°C, WT.%:</span><span> Nil</span>
-												</li>
-												<li><span>Drop Point:</span><span> 250ºC</span></li>
-												<li><span>VOC at 100ºC:</span><span> 0%</span></li>
-												<li><span>Thermal Conductivity at 30°C w/mK:</span><span> 3.2
-														w/mk</span></li>
-												<li><span>Viscosity Poise:</span><span> 500 - 600</span></li>
-												<li><span>Shelf Life:</span><span> 3 Years</span></li>
-												<li><span>Application:</span><span> Injection Flow able</span></li>
-											</ul>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-color-close"
-												data-dismiss="modal">Close</button>
+								<!-- Modal -->
+								<div class="modal fade" id="cb" tabindex="-1" role="dialog"
+									aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+											<div class="modal-header light-blue darken-3">
+												<h5 class="title"><i class="fab fa-canadian-maple-leaf"></i>Customised
+													BIOCHEMICALS</h5>
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close"><span
+														aria-hidden="true"><span>&times;</span></button>
+											</div>
+											<div class="modal-content-inner">
+												<div class="modal-body">
+													<div class="col-md-12 col-sm-12">
+														<p>Our core competency is to design the products as per
+															customer’s
+															exact application & expected performance. We had
+															designed more than
+															24 products for critical applications based on
+															customer’s specific
+															needs.
+														</p>
+														<h3 class="mtb25"><span class="first-word">CHEMIFOR
+															</span>
+															Technologies can offer customised products in
+															following
+															categories</h3>
+														<ul>
+															<li>Alternatives to hazardous chemicals</li>
+															<li>Alternative to hazardous solvents </li>
+															<li>Precision & Bulk Parts Cleaning</li>
+															<li>Performance Chemicals</li>
+															<li>Ultrasonic Cleaning Additives</li>
+														</ul>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<h3 class="mtb25"><span class="first-word">Why </span>
+															Product
+															Customization</h3>
+														<p>Mechanical industry is witnessing revival all over
+															the world after
+															the global economic recession by spurt in demand.
+															This has given
+															rise to global competition and companies are eyeing
+															to enter into
+															each other's markets more than ever. Emerging
+															markets have presented
+															themselves as the new playing ground for these
+															companies leading the
+															growth in demand.
+														</p>
+														<p>Acute oral exposure may cause corrosion of the mucous
+															membranes, esophagus, and stomach, with nausea,
+															vomiting,
+															and diarrhea reported in humans.
+														</p>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<h3 class="mtb25"><span class="first-word">Key</span>
+															Trends Shaping the Industry</h3>
+														<p>Rise in demand all over the world: Different factors
+															are operating in
+															different parts of the world but all are
+															contributing to the same
+															direction- robust rise in demand.
+														</p>
+														<p>Oozing out of fiscal stimulus has decreased
+															production in emerging
+															economies so always there is a pressure for cost
+															reduction, on time
+															deliveries & overall competitiveness.
+														</p>
+														<p>Search for economical alternative: As companies of
+															developed world
+															gain cost advantage and try to make inroads in
+															emerging markets,
+															local companies are searching for alternative
+															sources to reduce
+															their dependency on standard products available in
+															market.
+														</p>
+														<p>Problem Solving & Innovation: As customers want
+															cheaper products
+															and shorter time to market, manufacturing companies
+															& suppliers
+															are shifting focus on optimizing their processes,
+															creating new
+															blends of chemicals and reflecting back on their
+															business models
+														</p>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<h3 class="mtb25"><span class="first-word">Benefits
+															</span>
+															of Product Customization</h3>
+														<p>Many times customers do not have options so they
+															accept product
+															which technically not suits to their requirement but
+															they adjust
+															themselves with product. Many times seller have a
+															standardised
+															product so he tries to sell product than solving
+															customers problem.
+														</p>
+														<ul>
+															<li>Customised product save your process / batch
+																time</li>
+															<li>Its user friendly</li>
+															<li>They increase output</li>
+															<li>Improve quality standards</li>
+															<li>Saves process time</li>
+															<li>Improves safety standards</li>
+															<li>Improves productivity</li>
+														</ul>
+													</div>
+													<div class="col-md-12 col-sm-12">
+														<h3 class="mtb25"><span class="first-word">Why </span>
+															CHEMIFOR Technologies </h3>
+														<ul>
+															<li>Domain experience of more than 23 years</li>
+															<li>Design & innovation </li>
+															<li>World Class Production Capabilities </li>
+															<li>We had designed more than 41 customised
+																solutions</li>
+															<li>Strong R & D</li>
+															<li>Customer Centric Approach</li>
+														</ul>
+													</div>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-color-close"
+														data-dismiss="modal">Close</button>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
@@ -371,8 +559,10 @@
 					<!--div class="text-center"><img src="images/logo7.png" class="img-responsive logo-footer" alt="logo"></div-->
 					<h4>Our Mission</h4>
 					<p>To give best green products by continuous R & D developments and quality checks.
-						We strive to be a global leader in finding solutions to toxic, hazardous and harmful 
-						chemicals. Tracing the problem chemical industry is facing and innovating products to 
+						We strive to be a global leader in finding solutions to toxic, hazardous and
+						harmful
+						chemicals. Tracing the problem chemical industry is facing and innovating
+						products to
 						substitute the non-eco friendly chemicals.
 					</p>
 				</div>
@@ -386,7 +576,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					<p>Copyright © 2020 CHEMIFOR developed and maintained by <a target="_blank" href="http://e-webmatrix.com">E-WebMatrix</a></p>
+					<p>Copyright © 2020 CHEMIFOR developed and maintained by <a target="_blank"
+							href="http://e-webmatrix.com">E-WebMatrix</a></p>
 				</div>
 			</div>
 		</div>
