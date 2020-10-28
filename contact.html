@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-	<title>RIO - Your trusted partner - Contact</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<title>CHEMIFOR - Your trusted partner - Contact</title>
+	<meta name="keywords" content="Specialty and eco friendly chemicals manufacturer and technical consultant contact page">
+	<meta name="description" content="contact technical consultant and eco friendly Specialty chemical manufacturer">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 
 	<!-- stylesheet css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -83,20 +84,33 @@
 					<!--p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
 						ut laoreet. Dolore magna aliquam erat volutpat.</p-->
 				</div>
-				<div class="col-md-8 col-sm-8 mt30">
-					<form action="#" method="post" role="form">
+				<div id="contactform" class="col-md-8 col-sm-8 mt30">
+					<form role="form" id="sales">
 						<div class="col-md-6 col-sm-6">
-							<label for="name">NAME</label>
-							<input name="name" type="text" class="form-control" id="name">
-							<label for="email">EMAIL</label>
-							<input name="email" type="email" class="form-control" id="email">
+							<div class="relative">
+								<label for="name">NAME</label>
+								<input name="Name" type="text" class="form-control" id="Name" >
+							</div>
+							<div class="relative">
+								<label for="email">EMAIL *</label>
+								<input name="Email" type="text" class="form-control" id="Email">
+							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<label for="message">MESSAGE</label>
-							<textarea name="message" rows="7" class="form-control" id="message"></textarea>
+							<textarea name="Description" rows="7" class="form-control" id="Description"></textarea>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<button type="submit" name="submit" class="btn btn-default">SEND</button>
+							<label for="captcha"><span id="showFN"></span> + <span id="showSN"></span> *</label>
+							<input name="Captcha" type="text" class="form-control" id="Captcha">
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<label>&nbsp;</label>
+							<button type="submit" name="submit" class="submit-btn btn btn-default">SEND</button>
+						</div>
+						<div id="test">
+							<label for="usernameofxyunidmlp">Username</label>
+							<input type="text" name="usernameofxyunidmlp">
 						</div>
 					</form>
 				</div>
@@ -171,6 +185,8 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/livevalidation_standalone.js"></script>
+	<script src="js/contact-us.js"></script>
 
 </body>
 

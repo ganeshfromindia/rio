@@ -799,6 +799,36 @@ a.link {
 .navbar-brand {
   width: 250px;
 }
+
+#test {
+  display: none; 
+}
+
+}
+.LV_valid {
+	color: #00A500;
+}
+.LV_invalid, .LV_valid {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+.LV_invalid {
+	color: #fc0000;
+}
+
+.submit-btn {
+  margin-bottom: 0px;
+  width: inherit;
+  height: 55px;
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
 /* modal css ends */
 
 @media (min-width: 576px) {
