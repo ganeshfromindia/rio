@@ -33,7 +33,7 @@ if($spam)
         $smtp = @Mail::factory('smtp',
           array ('host' => $host,
             'port' => $port,
-            'auth' => true,
+            'auth' => false,
             'username' => $username,
             'password' => $password));
 
@@ -62,7 +62,7 @@ if($spam)
         $smtp = @Mail::factory('smtp',
           array ('host' => $host,
             'port' => $port,
-            'auth' => true,
+            'auth' => false,
             'username' => $username,
             'password' => $password));
 

@@ -17,6 +17,7 @@ Description.add( Validate.Format, { pattern: /[a-z]/i , failureMessage: "Alphanu
  
 
 $(".submitbutton").click(function(){
+	console.log("in function");
 	var CaptchaClick = new LiveValidation('Captcha');
 	CaptchaClick.add(Validate.Numericality , { is: total } );
 	CaptchaClick.add(Validate.Presence);
@@ -24,7 +25,7 @@ $(".submitbutton").click(function(){
 	var Email = new LiveValidation('Email');
 	Email.add(Validate.Presence);
 	Email.doOnBlur();
-	if ($("#Captcha").siblings("span").hasClass("LV_valid") && $("#Email").siblings("span").hasClass("LV_valid") && $("#CompanyName").siblings("span").hasClass("LV_valid")) {
+	if ($("#Captcha").siblings("span").hasClass("LV_valid") && $("#Email").siblings("span").hasClass("LV_valid") ) {
 	var Name = $("input[name=Name]").val();
 	var Email = $("input[name=Email]").val();
 	var Captcha = $("input[name=Captcha]").val();
@@ -40,7 +41,7 @@ $(".submitbutton").click(function(){
 	$.ajax({
 		  type: 'POST',
 		  url: 'contactform.php',
-		  data : {Name:Name, CompanyName:CompanyName, Email:Email, Phone:Phone, Captcha:Captcha, usernameofxyunidmlp:usernameofxyunidmlp, Description:Description},
+		  data : {Name:Name, Email:Email, Captcha:Captcha, usernameofxyunidmlp:usernameofxyunidmlp, Description:Description},
 		  dataType : 'json',
 		  success: function (result) {
 										//$("#sales").children().remove();
